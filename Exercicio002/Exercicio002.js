@@ -23,5 +23,5 @@ for (var i = 0; i < vetor.length; i++) {
 }
 
 console.log(`Nº digitados: ${r}`)
-console.log(`Maior: ${maior}`)
 console.log(`Menor: ${menor}`)
+console.log(`Maior: ${maior}`)

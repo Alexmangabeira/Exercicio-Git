@@ -14,9 +14,9 @@ function compareNumbers(a, b) {
     return a - b
 }
 
-var numbers = [89,0,36,5,2,65,1,45,7]
-numbers.sort(function(a, b){
+var vetor = [89,0,36,5,2,65,1,45,7]
+vetor.sort(function(a, b){
     return a - b
 })
 
-console.log(numbers)
+console.log(vetor)

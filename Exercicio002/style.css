@@ -1,0 +1,33 @@
+body {
+    background: #f35731;
+    text-align: center;
+}
+
+section {
+    background: white;
+    width: 500px;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px blue;
+}
+
+select {
+    width: 200px;
+    margin-top: 5px;
+}
+
+footer {
+    color: antiquewhite;
+}
+
+#res {
+    padding: 10px;
+    font-size: 25px;
+    color: #f35731;
+}
+#resultado {
+    color: green;
+    font-size: 18px;
+}

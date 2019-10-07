@@ -1,0 +1,45 @@
+body {
+    background-color: tomato;
+}
+header {
+    text-align: center;
+    color: antiquewhite;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+/* para ver as bordas do formulário */
+    padding: 1em;
+    border: 2px solid #ccc;
+    box-shadow: 5px 5px 10px rgb(132, 132, 238);
+}
+/* Espaço entre cada conjunto de campos */
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+input {
+    font-size: 20px;
+    box-shadow: 5px 5px 5px blanchedalmond;
+}
+#calcular {
+    border-radius: 10px;
+    color: blue;
+    border: 3px solid white;
+    
+}

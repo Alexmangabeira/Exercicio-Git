@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Calculando Hora Extras</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <!-- Conteúdo do Cabeçalho -->
+        <h1>Calculando horas extras</h1>
+    </header>
+
+    <section>
+        <!-- Corpo da Página-->
+        <form action="">
+            <div>
+                <label for="entrada">Hora de entrada:</label>
+                <input type="text" name="entrada" id="entrada" placeholder="Digite a hora de entrada">
+            </div>
+            <div>
+                <label for="saida">Hora de Saída:</label>
+                <input type="text" name="saida" id="saida" placeholder="Digite a hora de saída">
+            </div>
+
+            <div>
+                <input type="button" value="Calcular" id="calcular" onclick="calcular()">
+            </div>
+
+            <div>
+                <p>Quantidade de horas extras: <label for="QtdHorasEx">00:00:00</label></p>
     
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <!-- Rodapé -->
+        <p>
+            Desenvolvedor: Alexandro Lima.
+        </p>
+        <p>
+            github: https://github.com/Alexmangabeira
+        </p>
+    </footer>
+
 </body>
 </html>

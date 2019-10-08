@@ -17,22 +17,29 @@
         <!-- Corpo da Página-->
         <form action="">
             <div>
-                <label for="entrada">Hora de entrada:</label>
-                <input type="text" name="entrada" id="entrada" placeholder="Digite a hora de entrada">
+                <label for="entradaManha">Hora de entrada da manhã:</label>
+                <input type="text" name="entradaManha" id="entradaManha" placeholder="Digite a hora de entrada">
             </div>
             <div>
-                <label for="saida">Hora de Saída:</label>
-                <input type="text" name="saida" id="saida" placeholder="Digite a hora de saída">
+                <label for="saidaManha">Hora de Saída da manhã:</label>
+                <input type="text" name="saidaManha" id="saidaManha" placeholder="Digite a hora de saída">
             </div>
 
             <div>
-                <input type="button" value="Calcular" id="calcular" onclick="calcular()">
+                <label for="entradaTarde">Hora de entrada da tarde:</label>
+                <input type="text" name="entradaTarde" id="entradaTarde">
+            </div>
+                <label for="saidaTarde">Hora de saída da tarde:</label>
+                <input type="text" name="saidaTarde" id="saidaTarde">
+            <div>
+
+            </div>
+            <div>
+                <input type="button" value="Calcular" onclick="calc()">
             </div>
 
-            <div>
-                <p>Quantidade de horas extras: <label for="QtdHorasEx">00:00:00</label></p>
-    
-            </div>
+            <p>Quantidade de Horas Extra</p>
+            <div id="QtdHorasEx">Aqui</div>
         </form>
     </section>
 
@@ -45,6 +52,6 @@
             github: https://github.com/Alexmangabeira
         </p>
     </footer>
-
+    <script src="index.js"></script>
 </body>
 </html>
